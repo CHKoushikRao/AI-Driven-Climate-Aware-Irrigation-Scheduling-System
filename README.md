@@ -5,3 +5,28 @@ Integrated ET₀ estimation (FAO-56 Penman–Monteith) and soil moisture balance
 Compared deep learning architectures, with BiLSTM outperforming BiRNN in capturing long-term temporal dependencies.
 Generated season-specific (Rabi & Kharif) irrigation schedules to support practical agricultural decision-making.
 Designed a scalable, data-driven pipeline for climate-resilient irrigation planning.
+
+## Features
+- AI models: BiLSTM, BiRNN
+- Climate-based forecasting
+- 2026–2040 predictions (RCP 4.5)
+
+## Tech Stack
+Python, TensorFlow/Keras, Pandas, NumPy, Matplotlib
+
+## Dataset
+NASA POWER (2011–2025)
+
+## Methodology
+- ET₀ (FAO-56)
+- Soil moisture modeling
+- Deep learning models
+
+## Results
+- BiLSTM outperformed BiRNN (lower RMSE)
+
+## How to Run
+Steps to run your notebook
+
+## Future Work
+Improvements you can add
